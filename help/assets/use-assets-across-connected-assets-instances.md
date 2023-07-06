@@ -6,6 +6,7 @@ mini-toc-levels: 2
 role: User, Admin, Leader
 feature: Connected Assets,User and Groups
 exl-id: 4ceb49d8-b619-42b1-81e7-c3e83d4e6e62
+hide: yes
 ---
 # Use Connected Assets to share DAM assets in [!DNL Experience Manager Sites] {#use-connected-assets-to-share-dam-assets-in-aem-sites}
 
@@ -242,10 +243,6 @@ You can also update the metadata properties for an asset on remote DAM and the c
 
 [!DNL Experience Manager] displays an expired status visual indicator on assets in `Remote Assets Content Finder` to stop site authors from using the asset on a [!DNL Sites] page. If you use an asset with an expired status on a [!DNL Sites] page, the asset fails to display on the [!DNL Experience Manager] publish instance.
 
->[!NOTE]
->
->The updates to assets in remote DAM are made available to the [!DNL Sites] deployment only if remote DAM and [!DNL Sites] deployments are on [!DNL Experience Manager].
-
 ## Frequently Asked Questions {#frequently-asked-questions}
 
 +++**Should  you configure Connected Assets if you need to use assets available on your [!DNL Sites] deployment?**
@@ -362,5 +359,5 @@ To troubleshoot common errors, follow these steps:
 
   ![failure to retrieve asset remote references](assets/reference-report-failure.png)
 
-
+* If the cookies are not sent from the Sites server to the Assets server in Google Chrome, this is because the Assets connection is not over HTTPS. If you do not use HTTPS on the Assets instance then the `SameSite=None` header cannot be added to the response after you authenticate with the Assets server. 
 

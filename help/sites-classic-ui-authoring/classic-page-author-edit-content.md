@@ -1,8 +1,6 @@
 ---
-title: Editing Page Content
-seo-title: Editing Page Content
+title: Editing page content
 description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
-seo-description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
 uuid: e7b65ceb-263c-46f2-91e3-11dec3a016fa
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.5/SITES
@@ -203,19 +201,19 @@ You can cancel (then re-enable) the inheritance. Depending on the component, thi
 
 There are two icons in the bottom border of the sidekick that are important to previewing pages:
 
-![](do-not-localize/chlimage_1-5.png)
+![Bottom border of the sidekick with a horizontal row of seven icons. Two of the icons at the start of the row, the edit icon and the preview mode icon, are indicated by a pencil symbol and a magnifying glass symbol, respectively.](do-not-localize/chlimage_1-5.png)
 
 * The pencil icon shows you that you are currently in edit mode where you can add, modify, move or delete content.
 
-  ![](do-not-localize/chlimage_1-6.png)
+  ![Edit icon indicated by a pencil symbol.](do-not-localize/chlimage_1-6.png)
 
 * The magnifying glass icon allows you to select preview mode where the page is displayed as it will be seen in the publish environment (a page refresh is sometimes also needed):
 
-  ![](do-not-localize/chlimage_1-7.png)
+  ![Preview mode icon indicated by a magnifying glass symbol.](do-not-localize/chlimage_1-7.png)
 
   In preview mode the sidekick will be reduced, click the down arrow icon to return to edit mode:
 
-  ![](do-not-localize/chlimage_1-8.png)
+  ![Bar with AEM as the title and an edit mode icon to the right of the title indicated by a down arrow symbol.](do-not-localize/chlimage_1-8.png)
 
 ## Find & Replace {#find-replace}
 

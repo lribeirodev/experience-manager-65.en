@@ -6,6 +6,7 @@ mini-toc-levels: 1
 role: User, Admin, Architect
 feature: Asset Management,Multi Site Manager
 exl-id: 4d0367c4-88aa-4aef-b23d-828609b0df09
+hide: yes
 ---
 # Reuse assets using MSM for [!DNL Assets] {#reuse-assets-using-msm-for-assets}
 
@@ -13,7 +14,6 @@ exl-id: 4d0367c4-88aa-4aef-b23d-828609b0df09
 | -------- | ---------------------------- |
 | AEM as a Cloud Service  |    [Click here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/reuse-assets-using-msm.html?lang=en)                  |
 | AEM 6.5     | This article         |
-| AEM 6.4     |     [Click here](https://experienceleague.adobe.com/docs/experience-manager-64/assets/using/reuse-assets-using-msm.html?lang=en)           |
 
 Multi Site Manager (MSM) functionality in [!DNL Adobe Experience Manager] enables users to reuse content that is authored once and reused across multiple web-locations. The same is available for digital assets as MSM for [!DNL Assets] functionality. Using MSM for [!DNL Assets], you can:
 
@@ -281,21 +281,6 @@ If you have multiple assets in a live copy folder, initiating actions on each as
    ![Easily update many assets in live copy folders from the Live Copy Overview console](assets/livecopyconsole_update_many_assets.png)
 
    *Figure: Easily update many assets in live copy folders from the [!UICONTROL Live Copy Overview] console.*
-
-## Extend MSM for [!DNL Assets] {#extend-api}
-
-[!DNL Experience Manager] allows you to extend the functionality using the MSM Java APIs. For [!DNL Assets], the extending works just the same as it works with MSM for [!DNL Sites]. For details, see [Extending the MSM](/help/sites-developing/extending-msm.md) and the following for information about specific tasks:
-
-* [Overview of APIs](/help/sites-developing/extending-msm.md#overview-of-the-java-api)
-* [Create a synchronization action](/help/sites-developing/extending-msm.md#creating-a-new-synchronization-action)
-* [Create a rollout configuration](/help/sites-developing/extending-msm.md#creating-a-new-rollout-configuration)
-* [Create and use a simple LiveActionFactory class](/help/sites-developing/extending-msm.md#creating-and-using-a-simple-liveactionfactory-class)
-
->[!NOTE]
->
->* Blueprint in MSM for [!DNL Sites] is called Live Copy source in MSM for [!DNL Assets].
->* Removing the chapters step in the create site wizard is not supported in MSM for [!DNL Assets].
->* Configuring MSM locks, on the page properties (Touch-enabled UI), is not supported in MSM for [!DNL Assets].
 
 ## Impact of asset management tasks on live copies {#manage-assets}
 

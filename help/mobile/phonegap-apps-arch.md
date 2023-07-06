@@ -303,7 +303,7 @@ This is a hidden directory which you may not see depending on your current OS se
 
 #### .cordova/hooks/ {#cordova-hooks}
 
-This directory contains the [CLI hooks](https://devgirl.org/2013/11/12/three-hooks-your-cordovaphonegap-project-needs/). The folders in the hooks directory contain node.js scripts that are executed at exact points during the build.
+This directory contains the [CLI hooks](https://cordova.apache.org/docs/en/10.x/guide/appdev/hooks/). The folders in the hooks directory contain node.js scripts that are executed at exact points during the build.
 
 #### .cordova/hooks/after-platform_add/ {#cordova-hooks-after-platform-add}
 
@@ -364,7 +364,7 @@ The www directory contains all of the web content (HTML, JS, and CSS files) that
 
 #### www/config.xml {#www-config-xml}
 
-The [PhoneGap documentation](https://docs.phonegap.com) refers to this file as a 'global configuration file'. The config.xml contains many app properties, such as the name of the app, the app 'preferences' (for example whether or not an iOS webview allows overscroll), and plugin dependencies that are *only* consumed by PhoneGap build.
+The PhoneGap documentation (`https://docs.phonegap.com`) refers to this file as a 'global configuration file'. The config.xml contains many app properties, such as the name of the app, the app 'preferences' (for example whether or not an iOS webview allows overscroll), and plugin dependencies that are *only* consumed by PhoneGap build.
 
 The config.xml file is a static file in AEM and is exported as-is via Content Sync.
 
@@ -376,7 +376,7 @@ The config.xml file contains the `content` element:
 
 `<content src="content/phonegap/geometrixx/apps/ng-geometrixx-outdoors/en.html" />`
 
-In [the PhoneGap documentation](https://docs.phonegap.com), this element is described as "The optional &lt;content&gt; element defines the app's starting page in the top-level web assets directory. The default value is index.html, which customarily appears in a project's top-level www directory."
+In the PhoneGap documentation (`https://docs.phonegap.com`), this element is described as "The optional &lt;content&gt; element defines the app's starting page in the top-level web assets directory. The default value is index.html, which customarily appears in a project's top-level www directory."
 
 PhoneGap build fails if an index.html file is not present. Therefore, this file is included.
 
